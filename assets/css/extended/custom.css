@@ -1,0 +1,18 @@
+.paginav {
+  background: transparent;
+  border: none;
+  padding: 36px 0;
+}
+
+.paginav > a {
+  padding: 6px;
+}
+
+.share-buttons {
+  border: none;
+  background: transparent;
+}
+
+.chroma {
+  background-color: unset;
+}
