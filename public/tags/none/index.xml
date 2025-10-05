@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>None on My New Hugo Site</title>
     <link>http://localhost:1313/tags/none/</link>
     <description>Recent content in None on My New Hugo Site</description>
-    <image>
-      <title>My New Hugo Site</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.147.3</generator>
+    <generator>Hugo</generator>
     <language>ko-kr</language>
     <lastBuildDate>Sun, 05 Oct 2025 17:43:44 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/none/index.xml" rel="self" type="application/rss+xml" />
@@ -25,32 +20,7 @@
       <link>http://localhost:1313/posts/content/</link>
       <pubDate>Sun, 05 Oct 2025 17:28:12 +0900</pubDate>
       <guid>http://localhost:1313/posts/content/</guid>
-      <description>&lt;p&gt;This is page!!&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Advertisement :)&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://nodeca.github.io/pica/demo/&#34;&gt;pica&lt;/a&gt;&lt;/strong&gt; - high quality and fast image
-resize in browser.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/nodeca/babelfish/&#34;&gt;babelfish&lt;/a&gt;&lt;/strong&gt; - developer friendly
-i18n with plurals support and easy syntax.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;You will like those projects!&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;h1-heading-8-&#34;&gt;h1 Heading 8-)&lt;/h1&gt;
-&lt;h2 id=&#34;h2-heading&#34;&gt;h2 Heading&lt;/h2&gt;
-&lt;h3 id=&#34;h3-heading&#34;&gt;h3 Heading&lt;/h3&gt;
-&lt;h4 id=&#34;h4-heading&#34;&gt;h4 Heading&lt;/h4&gt;
-&lt;h5 id=&#34;h5-heading&#34;&gt;h5 Heading&lt;/h5&gt;
-&lt;h6 id=&#34;h6-heading&#34;&gt;h6 Heading&lt;/h6&gt;
-&lt;h2 id=&#34;horizontal-rules&#34;&gt;Horizontal Rules&lt;/h2&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;typographic-replacements&#34;&gt;Typographic replacements&lt;/h2&gt;
-&lt;p&gt;Enable typographer option to see result.&lt;/p&gt;
-&lt;p&gt;(c) (C) (r) (R) (tm) (TM) (p) (P) +-&lt;/p&gt;
-&lt;p&gt;test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.&lt;/p&gt;
-&lt;p&gt;!!!!!! ???? ,, &amp;ndash; &amp;mdash;&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is page!!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Advertisement :)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://nodeca.github.io/pica/demo/&#34;&gt;pica&lt;/a&gt;&lt;/strong&gt; - high quality and fast image&#xA;resize in browser.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/nodeca/babelfish/&#34;&gt;babelfish&lt;/a&gt;&lt;/strong&gt; - developer friendly&#xA;i18n with plurals support and easy syntax.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You will like those projects!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;h1-heading-8-&#34;&gt;h1 Heading 8-)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2-heading&#34;&gt;h2 Heading&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3-heading&#34;&gt;h3 Heading&lt;/h3&gt;&#xA;&lt;h4 id=&#34;h4-heading&#34;&gt;h4 Heading&lt;/h4&gt;&#xA;&lt;h5 id=&#34;h5-heading&#34;&gt;h5 Heading&lt;/h5&gt;&#xA;&lt;h6 id=&#34;h6-heading&#34;&gt;h6 Heading&lt;/h6&gt;&#xA;&lt;h2 id=&#34;horizontal-rules&#34;&gt;Horizontal Rules&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;hr&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;typographic-replacements&#34;&gt;Typographic replacements&lt;/h2&gt;&#xA;&lt;p&gt;Enable typographer option to see result.&lt;/p&gt;&#xA;&lt;p&gt;(c) (C) (r) (R) (tm) (TM) (p) (P) +-&lt;/p&gt;&#xA;&lt;p&gt;test.. test&amp;hellip; test&amp;hellip;.. test?&amp;hellip;.. test!&amp;hellip;.&lt;/p&gt;&#xA;&lt;p&gt;!!!!!! ???? ,, &amp;ndash; &amp;mdash;&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Second Post</title>
