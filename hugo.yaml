@@ -133,3 +133,8 @@ pagination:
   disableAliases: false
   pagerSize: 5
   path: page
+
+# gh-pages
+caches:
+  images:
+    dir: :cacheDir/images
