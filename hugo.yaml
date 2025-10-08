@@ -47,6 +47,7 @@ params:
   # TODO
   comments: false
   hidemeta: false
+  hideAuthor: true
   hideSummary: false
   showtoc: true
   tocopen: false
