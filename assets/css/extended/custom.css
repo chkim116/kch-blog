@@ -16,3 +16,7 @@
 .chroma {
   background-color: unset;
 }
+
+.first-entry {
+  min-height: auto;
+}

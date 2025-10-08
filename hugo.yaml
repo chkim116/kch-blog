@@ -2,8 +2,10 @@
 
 baseURL: https://chkim116.github.io/
 languageCode: ko-kr
-title: My New Hugo Site
+title: kch
 theme: ["PaperMod"]
+defaultContentLanguage: ko
+hasCJKLanguage: true
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -23,9 +25,9 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: My New Hugo Site
-  description: "My New Hugo Site description"
-  keywords: [Blog]
+  title: kch
+  description: "단순함과 효율을 추구하는 개발자"
+  keywords: [블로그, 프론트엔드, 개발자, 비전공자]
   author: kimchanghoe
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006-01-02"
@@ -74,15 +76,15 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "kch's blog"
 
   socialIcons:
     - name: linkedin
       url: "https://linkedin.com/in/창회-김-a61746253"
     - name: github
       url: "https://github.com/chkim116"
-
+    - name: email
+      url: "mailto:kormelon@gmail.com"
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
@@ -106,16 +108,17 @@ params:
 
 menu:
   main:
-    - identifier: Categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: Tags
-      name: Tags
-      url: /tags/
-      weight: 20
-    - name: Search
+    - identifier: search
+      name: 검색
       url: /search/
+      weight: 10
+    - identifier: categories
+      name: 카테고리
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: 태그
+      url: /tags/
       weight: 30
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
