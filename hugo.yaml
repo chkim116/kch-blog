@@ -1,6 +1,6 @@
 # https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-hugoyml
 
-baseURL: https://chkim116.github.io/
+baseURL: https://kchblog.com/
 languageCode: ko-kr
 title: kch
 theme: ["PaperMod"]
@@ -26,10 +26,10 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: kch
-  description: "단순함과 효율을 추구하는 개발자"
+  description: "A blog by kch"
   keywords: [블로그, 프론트엔드, 개발자, 비전공자]
   author: kimchanghoe
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["/images/default_og.png"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -51,15 +51,15 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
-
+  
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/images/favicons/favicon.ico"
+    favicon16x16: "/images/favicons/favicon-16x16.png"
+    favicon32x32: "/images/favicons/favicon-32x32.png"
+    apple_touch_icon: "/images/favicons/apple-touch-icon.png"
+    # safari_pinned_tab: "<link / abs url>"
 
   # profileMode:
   #   enabled: false # needs to be explicitly set
@@ -77,7 +77,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "kch's blog"
+    Title: "kch blog"
 
   socialIcons:
     - name: linkedin
