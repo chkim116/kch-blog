@@ -11,14 +11,14 @@
     </image>
     <generator>Hugo -- 0.151.0</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 05 Oct 2025 17:43:44 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 12:36:41 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Content</title>
-      <link>http://localhost:1313/posts/content/</link>
-      <pubDate>Sun, 05 Oct 2025 17:43:44 +0900</pubDate>
-      <guid>http://localhost:1313/posts/content/</guid>
-      <description>&lt;p&gt;This is page!!&lt;/p&gt;</description>
+      <title>비전공자인 당신, 프론트엔드 개발자가 되기로 결심했다면 명심할 3가지</title>
+      <link>http://localhost:1313/posts/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90%EC%9D%B8-%EB%8B%B9%EC%8B%A0-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%90%98%EA%B8%B0%EB%A1%9C-%EA%B2%B0%EC%8B%AC%ED%96%88%EB%8B%A4%EB%A9%B4-%EB%AA%85%EC%8B%AC%ED%95%A0-3%EA%B0%80%EC%A7%80/</link>
+      <pubDate>Sun, 12 Oct 2025 12:36:41 +0900</pubDate>
+      <guid>http://localhost:1313/posts/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90%EC%9D%B8-%EB%8B%B9%EC%8B%A0-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%90%98%EA%B8%B0%EB%A1%9C-%EA%B2%B0%EC%8B%AC%ED%96%88%EB%8B%A4%EB%A9%B4-%EB%AA%85%EC%8B%AC%ED%95%A0-3%EA%B0%80%EC%A7%80/</guid>
+      <description>합리화 하지 마라, 연습하고 또 연습하라. 우선순위를 정하고 거기에 집중하라.</description>
     </item>
   </channel>
 </rss>
