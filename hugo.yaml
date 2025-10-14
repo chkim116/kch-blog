@@ -86,9 +86,6 @@ params:
       url: "https://github.com/chkim116"
     - name: email
       url: "mailto:kormelon@gmail.com"
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
 
   # for search
   # https://fusejs.io/api/options.html
