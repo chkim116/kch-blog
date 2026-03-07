@@ -47,20 +47,14 @@ export function routeGuard() { ... }      // 라우팅 Guard
 변경 이유가 같다 = 변화축이 같다 = 함께 두어야 한다.
 변경 이유가 다르다 = 변화축이 다르다 = 분리해야 한다.
 
-`authGuard`와 `permissionGuard`는 둘 다 Guard지만 변경 이유가 다르다. 인증 정책이 바뀌면 `authGuard`가 바뀌고, 권한 정책이 바뀌면 `permissionGuard`가 바뀐다.
-
-반면 `authGuard`와 `parseAuthToken`은 변화축이 같다. 인증 방식이 JWT에서 세션 기반으로 바뀐다고 생각해보자. 토큰을 파싱하는 방법도 바뀌고, Guard에서 토큰을 검증하는 방법도 바뀐다. 변경 이유가 같다. 함께 두는 것이 맞다.
+`authGuard`와 `permissionGuard`는 둘 다 Guard지만 변경 이유가 다르다. 인증 정책이 바뀌면 `authGuard`가 바뀌고, 권한 정책이 바뀌면 `permissionGuard`가 바뀐다. 변화축이 다르다. 분리해야 한다.
 
 ```ts
 // auth/guard.ts — 인증 관련만
 export function authGuard({ children }: Props) {
-  const token = parseAuthToken();
+  const token = localStorage.getItem('auth_token');
   if (!token) { return <LoginPage />; }
   return <>{children}</>;
-}
-
-export function parseAuthToken() {
-  return localStorage.getItem('auth_token');
 }
 
 // permission/guard.ts — 권한 관련만
